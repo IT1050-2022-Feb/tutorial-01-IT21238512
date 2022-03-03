@@ -16,7 +16,7 @@ int main() {
    scanf("%d", &no1);
    printf("Enter a value for no 2 : ");
    scanf("%d", &no2);
-   printf("%d ", minimum(no1, no2));
+   printf("%d ", minimum(no1, no2)); //Function calling
    printf("%d ", maximum(no1, no2));
    printf("%d ", multiply(no1, no2));
    return 0;

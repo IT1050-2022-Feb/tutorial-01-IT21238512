@@ -33,7 +33,7 @@ int main()
       
     else
 		{
-      amount = 30 * 50 + (x - 30) * 40;
+      amount = (30 * 50) + ((x - 30) * 40);
 			printf("\nPayment = %.2f\n", amount);
     }
   
