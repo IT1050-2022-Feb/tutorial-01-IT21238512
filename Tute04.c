@@ -23,16 +23,32 @@ int main() {
 }
 
 int minimum(int x, int y) //Function implementation
-	{
-    	return (x > y) ? y : x;
-	}
-	
-int maximum(int x, int y)
-	{
-    	return (x > y) ? x : y;
-	}
+{
+    if (x < y) 
+    {
+        return x;
+    }
+    else 
+    {
+        return y;
+    }
+}
+
+int maximum(int x, int y) 
+{
+    if (x > y) 
+    {
+        return x;
+    }
+    else 
+    {
+        return y;
+    }
+}
 
 int multiply(int x, int y) 
-	{
-	    return x * y;
-	}
+{
+    return x * y;
+}
+
+
